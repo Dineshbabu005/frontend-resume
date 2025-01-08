@@ -14,7 +14,7 @@ function App() {
     const { name, email, phone, skills, experience } = data;
     const resumeText = `${name}\n${email}\n${phone}\nSkills:\n${skills}\nExperience:\n${experience}`;
     const mockJobDescription = "data analysis, power bi, python, visualization";
-    const API_URL = "https://your-backend.onrender.com/api/ats_score";
+    const API_URL = "https://dreamz.onrender.com/api/ats_score";
 
 
     const atsData = await fetchATSScore(resumeText, mockJobDescription);
